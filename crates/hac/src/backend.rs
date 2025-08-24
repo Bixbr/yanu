@@ -188,7 +188,7 @@ pub mod build {
         let src_dir = tempdir()?;
 
         if !Command::new("git")
-            .args(["clone", "https://github.com/The-4n/hacPack"])
+            .args(["clone", "https://github.com/46620/hacpack.git"])
             .arg(src_dir.path())
             .status()?
             .success()
@@ -380,7 +380,7 @@ pub mod build {
         let src_dir = tempdir()?;
 
         if !Command::new("git")
-            .args(["clone", "https://github.com/The-4n/4NXCI.git"])
+            .args(["clone", "https://github.com/tiliarou/4NXCI.git"])
             .arg(src_dir.path())
             .status()?
             .success()
